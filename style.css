@@ -1,0 +1,43 @@
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+table {
+    width: 100%;
+}
+
+table > thead {
+    height: 40px;
+}
+
+table > thead > tr {
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+
+table > thead > tr > th {
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+table > tbody > tr {
+    height: 40px;
+}
+
+table > tbody > tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+table > tbody > tr:hover {
+    background-color:whitesmoke;
+}
+
+table > tbody > tr > td {
+    padding: 0 15px;
+}
